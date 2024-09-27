@@ -10,11 +10,7 @@ body {
     padding: 8px;
     font-family: "Fredoka One", sans-serif;
     width: 16%;
-    text-shadow:
-    1px 1px 0px black,
-    -1px 1px 0px black,
-    1px -1px 0px black,
-    -1px -1px 0px black;   
+     
 }
 
 ul{
@@ -62,19 +58,35 @@ body > main  article {
     width: 60%;
     margin: auto;
     
+    
 }
 
 #main-content{
     display: flex;
     justify-content: space-around;
+    
 }
 
 #main-content>div{
     width: 70%;
 }
 
+.home-page-text {
+    font-size:1.5rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    line-height: 1.8;
+    text-align: center;
+    
+}
 
+.quote-text{
+    font-size:1.5rem;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    text-align: center;
 
+}
 form{
     text-align: center;
 }
@@ -117,3 +129,277 @@ img{
 
 }
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color:#333;
+}
+
+header{
+    background-color: #333;
+    color:#fff; 
+    padding: 1rem 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+
+.about-section {
+    padding: 50px 0;
+    background-color:#fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+     margin-bottom: 20px;
+
+}
+
+.about-page-text{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    
+
+}
+
+.about-text {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.text-text{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.team-member {
+    flex-basis: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     object-fit: cover;
+    margin-bottom: 15px;  
+        
+    
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1.4rem;
+    color: #777;
+}
+
+/* Footer */
+footer {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-background{
+    text-align: center;
+}
+
+
+
+
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    
+    margin-bottom: 20px;
+}
+
+.question-form {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Form Styles */
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+/* Status Message */
+.status {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: green;
+    visibility: hidden;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+footer content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
